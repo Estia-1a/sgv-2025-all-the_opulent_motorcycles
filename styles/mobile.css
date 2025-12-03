@@ -36,3 +36,48 @@ nav a {
   color: #333;
   font-weight: 500;
 }
+
+/* ----- Center ----- */
+.center {
+  height: 200px;
+  background: #ddd;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.center-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  width: 100%;
+}
+
+.center-content h1 {
+  font-size: 1.5rem;
+}
+
+/* ----- Search ----- */
+.search-section {
+  padding: 1rem;
+  display: block;
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.8rem 3rem 0.8rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #bbb;
+}
+
+.search-mic {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
