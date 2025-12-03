@@ -1,0 +1,11 @@
+/* ----- Header  ----- */
+header {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  flex-direction: row;
+  gap: 1.5rem;
+}
