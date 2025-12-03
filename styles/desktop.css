@@ -35,3 +35,20 @@ nav ul {
 .search-box {
   width: 350px;
 }
+
+/* ----- Grids (multi-column) ----- */
+.cities-grid {
+  grid-template-columns: repeat(4, 1fr); 
+}
+
+.listings-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.city-card, .listing-card {
+  text-align: left;
+}
+
+.city-card {
+    text-align: center;
+}
