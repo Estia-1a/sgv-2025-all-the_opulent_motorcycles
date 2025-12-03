@@ -52,3 +52,15 @@ nav ul {
 .city-card {
     text-align: center;
 }
+
+/* ----- Button ----- */
+.btn-primary {
+    width: auto;
+}
+
+/* ----- Footer ----- */
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: left;
+}

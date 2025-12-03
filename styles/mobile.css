@@ -125,3 +125,45 @@ nav a {
     list-style: none;
     text-align: left;
 }
+
+
+/* ----- Button ----- */
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* ----- Footer ----- */
+footer {
+  background: #111;
+  color: #eee;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.footer-menu ul {
+  list-style: none;
+}
+
+footer a {
+  color: #eee;
+  text-decoration: none;
+}
