@@ -40,10 +40,12 @@ nav a {
 /* ----- Center ----- */
 .center {
   height: 200px;
-  background: #ddd;
+  background-color: #ddd;
   display: flex;
   align-items: flex-end;
   padding: 1rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .center-content {
@@ -51,10 +53,26 @@ nav a {
   padding: 0.8rem;
   border-radius: 0.7rem;
   width: 100%;
+  max-width: 900px;
 }
 
 .center-content h1 {
   font-size: 1.5rem;
+}
+
+.center-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  display: block;
+}
+
+.center-content { 
+  position: relative; z-index: 1;
 }
 
 /* ----- Search ----- */
