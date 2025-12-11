@@ -5,6 +5,11 @@ header {
   padding: 1rem 2rem;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 nav ul {
   flex-direction: row;
   gap: 1.5rem;
@@ -49,6 +54,18 @@ nav ul {
 
 .search-box {
   width: 350px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* ----- Grids (multi-column) ----- */
@@ -109,6 +126,9 @@ nav ul {
 /* ----- Button ----- */
 .btn-primary {
     width: auto;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
 }
 
 /* ----- Footer ----- */
@@ -167,6 +187,9 @@ nav ul {
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 .btn-small svg {
   width: 1.05rem;
